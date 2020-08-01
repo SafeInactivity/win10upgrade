@@ -10,4 +10,4 @@ cls
 Invoke-WebRequest -Uri $url -OutFile $output
 .\main.cmd
 echo "Your PC will restart in 90s"
-tart-Sleep -Seconds 90 ; Restart-Computer -Force
+Start-Sleep -Seconds 90 ; Restart-Computer -Force
